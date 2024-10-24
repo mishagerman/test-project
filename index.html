@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script> <!-- Подключение файла JavaScript -->
+  </head>
+  <body>
+    <header class="company-header">
+      <div class="logo-and-subtext">
+        <div class="logo-and-text">
+          <img src="images/logo.svg" alt="Логотип компании" class="logo" />
+          <div class="logo-text">
+            <h1 class="company-name">nd-stroy plus</h1>
+            <p class="slogan">Строим как для себя с душой и на века</p>
+          </div>
+        </div>
+        <p class="subtext">БОЛЕЕ 100 ПОСТРОЕННЫХ ДОМОВ</p>
+      </div>
+
+      <div class="lightning-offer">
+        <img
+          src="images/flash.svg"
+          alt="Иконка молнии"
+          class="lightning-icon"
+        />
+        <div class="offer-text">
+          Построим ваш идеальный дом 🏘<br />
+          в любой точке страны от 45 000$
+        </div>
+      </div>
+      <button class="apply-button">Оставить заявку прорабу</button>
+      <div class="sales-department-info">
+        <p class="sales-title">Отдел продаж работает</p>
+        <p class="sales-hours">с 11 до 19:00 без. вых.</p>
+      </div>
+      <div class="foreman-info">
+        <img
+          src="images/houseHeader.svg"
+          alt="Прораб сейчас Online"
+          class="foreman-icon"
+        />
+        <div class="foreman-text">
+          <p class="foreman-status">Прораб сейчас Online</p>
+          <p class="foreman-phone">+375 00 000 00</p>
+          <a href="#" class="foreman-question">ЗАДАЙТЕ МНЕ ВАШ ВОПРОС</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="header-container">
+      <nav class="menu">
+        <ul>
+          <li><a href="#home" class="glav menu-link">Главная</a></li>
+          <li><a href="#services" class="menu-link">Кейсы и услуги</a></li>
+          <li><a href="#blog" class="menu-link">Блог</a></li>
+          <li>
+            <a href="#about" class="menu-link">Моя история - о собственнике</a>
+          </li>
+          <li><a href="#contacts" class="menu-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="center-button">
+        <a href="#download" class="button"
+          >Скачать тех. задание и шаблон договора<img src="images/outline.svg"
+        /></a>
+        <a href="#video-case" class="video-case-link"
+          ><img src="images/youtubeGoldIcon.svg" /><span class="goldWord"
+            >Видео-</span
+          >кейс от Встречи до строительства дома</a
+        >
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook"
+        /></a>
+        <a href="https://instagram.com" target="_blank"
+          ><img src="images/intagram.svg" alt="Instagram"
+        /></a>
+        <a href="https://youtube.com" target="_blank"
+          ><img src="images/youtube.svg" alt="YouTube"
+        /></a>
+      </div>
+    </div>
+    <main class="first-screen">
+      <div class="shareConteiner">
+        <img src="images/share.svg" alt="shareIcon" />
+        <a href="#" class="shareText"
+          >Сделай репост и получи расчёт<br />стоимости в подарок!</a
+        >
+      </div>
+      <div class="sharePopup" id="sharePopup">
+        <img src="images/cross.svg" alt="close" class="close-button" id="closePopup" />
+        <h2 class="sharePopup-title">Сделай репост проекта КД —1 себе в соц.сети, чтобы не потерять ссылку</h2>
+        <p class="sharePopup-description">СДЕЛАТЬ РЕПОСТ СЕЙЧАС, ЧТОБЫ ПОЛУЧИТЬ АР ПРОЕКТА В ПОДАРОК</p>
+        
+        <div class="share-buttons">
+            <button class="share-button viber">
+                <img src="images/viber.svg" alt="Viber" />
+                Viber
+            </button>
+            <button class="share-button WhatsApp">
+                <img src="images/wussap.svg" alt="WhatsApp" />
+                WhatsApp
+            </button>
+            <button class="share-button Telegram">
+                <img src="images/TelegVec.svg" alt="Telegram" />
+                Telegram
+            </button>
+            <button class="share-button Instagram">
+                <img src="images/instVec.svg" alt="Instagram" />
+                Instagram
+            </button>
+            <button class="share-button Facebook">
+                <img src="images/faceVec.svg" alt="Facebook" />
+                Facebook
+            </button>
+        </div>
+    
+        <button class="copy-link-button">Скопировать ссылку</button>
+    </div>
+      <div class="first-section">
+        <div class="left-part">
+          <h1 class="text-left-part">
+            Построим дом по проекту КД —1 в любой точке Беларуси без срывов
+            сроков со всеми коммуникациями под ключ
+          </h1>
+          <div class="scroll">
+            <img src="images/arrowLeft.svg" alt="arrowLeft" class="arrow" />
+            <img src="images/houseMain.svg" alt="houseMain" class="houseMain" />
+            <img src="images/arrowRight.svg" alt="arrowRight" class="arrow" />
+          </div>
+        </div>
+        <div class="right-part">
+          <div class="header-right-part">ЭТО БЕСПЛАТНО!</div>
+          <div class="text-right-part">
+            <span class="bold">📝 Оставь заявку</span> и мы рассчитаем стоимость
+            вашего дома 😁
+          </div>
+          <div class="input-right-part">
+            <input type="text" placeholder="Введите имя" />
+            <input type="text" placeholder="Введите телефон" />
+            <input
+              type="text"
+              placeholder=" @Username в Telegram ( если есть)"
+            />
+          </div>
+          <div class="selected-right-part">
+            <div class="contact-item">
+              <button class="contact-button">
+                <img src="images/Phone.svg" alt="Телефон" />
+              </button>
+              <p class="contact-text">Телефон</p>
+            </div>
+            <div class="contact-item">
+              <button class="contact-button">
+                <img src="images/Telegram.svg" alt="Telegram" />
+              </button>
+              <p class="contact-text">Telegram</p>
+            </div>
+            <div class="contact-item">
+              <button class="contact-button">
+                <img src="images/PhoneColled.svg" alt="Viber" />
+              </button>
+              <p class="contact-text">Viber</p>
+            </div>
+            <div class="contact-item">
+              <button class="contact-button">
+                <img src="images/Watsup.svg" alt="WhatsApp" />
+              </button>
+              <p class="contact-text">WhatsApp</p>
+            </div>
+          </div>
+          <button class="submit-button">Оставить заявку</button>
+        </div>
+      </div>
+      <div class="main-conteiner">
+        <div class="left-main">
+          <div class="benefitsCards">
+            <div class="cards">
+              <p class="header-cards">Соблюдаем сроки</p>
+              <div class="img-text">
+                <img src="images/clock.svg" alt="cheild" />
+                <p>от 2.5 до 5 месяцев, всё согласно договора</p>
+              </div>
+            </div>
+            <div class="cards">
+              <p class="header-cards">Гарантия до 50 лет</p>
+              <div class="img-text">
+                <img src="images/chield.svg" alt="cheild" />
+                <p>Опытная команда мастеров с профессиональным оборудованием</p>
+              </div>
+            </div>
+            <div class="cards">
+              <p class="header-cards">Стоимость строительства</p>
+              <div class="img-text">
+                <img src="images/bunking.svg" alt="cheild" />
+                <p>от 800$ м2 в зависимости от того что необходимо построить</p>
+              </div>
+            </div>
+            <div class="cards">
+              <p class="header-cards">Стоимость строительства</p>
+              <div class="img-text">
+                <img src="images/bunking.svg" alt="cheild" />
+                <p>от 800$ м2 в зависимости от того что необходимо построить</p>
+              </div>
+            </div>
+          </div>
+          <div class="plan-form">
+            <h2 class="plan-header">Планировка дома по проекту — КД 1</h2>
+            <div class="plan-content">
+              <div class="left-column">
+                <img src="images/plan.png" alt="План дома" class="plan-image" />
+              </div>
+              <div class="right-column">
+                <div class="block">
+                  <h3 class="block-header">Планировка дома интересная и продуманная:</h3>
+                  <p class="block-text">
+                    Дом состоит из двух этажей и включает в себя большую гостиную,
+                    рабочий кабинет, коридор, жилую комнату, душевую и тамбур.
+                    Проектом предусматривается выход на задний двор, что очень удобно.
+                  </p>
+                </div>
+                <div class="block">
+                  <h3 class="block-header">План Цокольного этажа</h3>
+                  <ul class="plan-list">
+                    <li>Кухня-гостиная: 40,0 м2</li>
+                    <li>Спальня: 11,3 м2</li>
+                    <li>Гардеробная: 9,0 м2</li>
+                  </ul>
+                </div>
+                <div class="block">
+                  <button class="contact-button-block">Связаться с проектировщиком</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="right-main">
+            <h2 class="right-main-header">Другие проекты которые могу вас заинтересовать</h2>
+            <div class="product-cards">
+              <div class="product-card">
+                <h3 class="card-title">ПРОЕКТУ — КД 1</h3>
+                <p class="card-description">📝 <span class="bold">Оставьте заявку</span> и получите расчёт архитектора в подарок</p>
+                <div class="image-container">
+                    <img src="images/houseCard.png" alt="House Card" class="card-image" />
+                    <div class="price-tag">от 800$ м2</div> <!-- Новый блок с текстом -->
+                  </div>                <div class="selected-right-part card">
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Phone.svg" alt="Телефон" />
+                    </button>
+                    <p class="contact-text">Телефон</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Telegram.svg" alt="Telegram" />
+                    </button>
+                    <p class="contact-text">Telegram</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/PhoneColled.svg" alt="Viber" />
+                    </button>
+                    <p class="contact-text">Viber</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Watsup.svg" alt="WhatsApp" />
+                    </button>
+                    <p class="contact-text">WhatsApp</p>
+                  </div>
+                </div>
+                <button class="submit-button">Подробнее о проекте</button>
+              </div>
+              <div class="product-card">
+                <h3 class="card-title">ПРОЕКТУ — КД 1</h3>
+                <p class="card-description">📝 <span class="bold">Оставьте заявку</span> и получите расчёт архитектора в подарок</p>
+                <div class="image-container">
+                    <img src="images/houseCard.png" alt="House Card" class="card-image" />
+                    <div class="price-tag">от 800$ м2</div> <!-- Новый блок с текстом -->
+                  </div>
+                <div class="selected-right-part card">
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Phone.svg" alt="Телефон" />
+                    </button>
+                    <p class="contact-text">Телефон</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Telegram.svg" alt="Telegram" />
+                    </button>
+                    <p class="contact-text">Telegram</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/PhoneColled.svg" alt="Viber" />
+                    </button>
+                    <p class="contact-text">Viber</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Watsup.svg" alt="WhatsApp" />
+                    </button>
+                    <p class="contact-text">WhatsApp</p>
+                  </div>
+                </div>
+                <button class="submit-button">Подробнее о проекте</button>
+              </div>
+              <!-- Две дополнительные карточки -->
+              <div class="product-card">
+                <h3 class="card-title">ПРОЕКТУ — КД 1</h3>
+                <p class="card-description">📝 <span class="bold">Оставьте заявку</span> и получите расчёт архитектора в подарок</p>
+                <div class="image-container">
+                    <img src="images/houseCard.png" alt="House Card" class="card-image" />
+                    <div class="price-tag">от 800$ м2</div> <!-- Новый блок с текстом -->
+                  </div>                 <div class="selected-right-part card">
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Phone.svg" alt="Телефон" />
+                    </button>
+                    <p class="contact-text">Телефон</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Telegram.svg" alt="Telegram" />
+                    </button>
+                    <p class="contact-text">Telegram</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/PhoneColled.svg" alt="Viber" />
+                    </button>
+                    <p class="contact-text">Viber</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Watsup.svg" alt="WhatsApp" />
+                    </button>
+                    <p class="contact-text">WhatsApp</p>
+                  </div>
+                </div>
+                <button class="submit-button">Подробнее о проекте</button>
+              </div>
+              <div class="product-card">
+                <h3 class="card-title">ПРОЕКТУ — КД 1</h3>
+                <p class="card-description">📝 <span class="bold">Оставьте заявку</span> и получите расчёт архитектора в подарок</p>
+                <div class="image-container">
+                    <img src="images/houseCard.png" alt="House Card" class="card-image" />
+                    <div class="price-tag">от 800$ м2</div> <!-- Новый блок с текстом -->
+                  </div>                 <div class="selected-right-part card">
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Phone.svg" alt="Телефон" />
+                    </button>
+                    <p class="contact-text">Телефон</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Telegram.svg" alt="Telegram" />
+                    </button>
+                    <p class="contact-text">Telegram</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/PhoneColled.svg" alt="Viber" />
+                    </button>
+                    <p class="contact-text">Viber</p>
+                  </div>
+                  <div class="contact-item">
+                    <button class="contact-button">
+                      <img src="images/Watsup.svg" alt="WhatsApp" />
+                    </button>
+                    <p class="contact-text">WhatsApp</p>
+                  </div>
+                </div>
+                <button class="submit-button">Подробнее о проекте</button>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+      <div class="button-switcher">
+        <div class="switcher">
+        <button class="switch-button" data-value="1">1</button>
+        <button class="switch-button" data-value="2">2</button>
+        <button class="switch-button" data-value="3">3</button>
+
+      </div>        
+      <img src="images/Arrow.svg" alt="arrow" class="arrow-switch">
+    </main>
+    <footer>
+        <div class="left-footer">
+            <h3 class="footer-title">Свяжитесь с нами любым удобным для вас способом</h3>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="images/insta.png" alt="Instagram Image" class="insta-image">
+                </div>
+                <div class="footer-column">
+                    <p class="footer-right-text"><span class="gold-text">Подпишитесь в Instagram</span> и получите чек-лист для привлечения клиентов <span class="gold-text">БЕСПЛАТНО</span></p>
+                    <button class="subscribe-button"><span class="bold-text">Подписаться</span>
+                        <img src="images/inst.svg" alt="Instagram Icon" class="button-icon"> 
+                    </button>
+                </div>
+            </div></div>
+                <div class="right-footer">
+                    <!-- Социальные сети -->
+                    <div class="social-icons-footer">
+                        <a href="#"><img src="images/telega.svg" alt="Telegram"></a>
+                        <a href="#"><img src="images/wussap.svg" alt="WhatsApp"></a>
+                        <a href="#"><img src="images/inst.svg" alt="Instagram"></a>
+                        <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="images/youtube.svg" alt="YouTube"></a>
+                    </div>
+            
+                    <div class="footer-content-right">
+                        <div class="footer-column">
+                            <ul class="footer-links">
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Примеры работ</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Сотрудничество</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Блог</a></li>
+                            </ul>
+                        </div>
+            
+                        <div class="footer-column">
+                            <h4>Видеоотзывы от наших довольных клиентов</h4>
+                            <div class="video-thumbnails">
+                                <div class="video-wrapper">
+                                    <img src="images/video1.png" alt="Video 1">
+                                    <img src="images/player.svg" alt="Player Icon" class="player-icon">
+                                </div>
+                                <div class="video-wrapper">
+                                    <img src="images/video2.png" alt="Video 1">
+                                    <img src="images/player.svg" alt="Player Icon" class="player-icon">
+                                </div>
+                                <div class="video-wrapper">
+                                    <img src="images/video3.png" alt="Video 1">
+                                    <img src="images/player.svg" alt="Player Icon" class="player-icon">
+                                </div>
+                            </div>
+                            <div class="video-pagination">
+                                <span class="circle" data-index="1"></span>
+                                <span class="circle" data-index="2"></span>
+                                <span class="circle" data-index="3"></span>
+                                <span class="circle" data-index="4"></span>
+                                <span class="circle" data-index="5"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+    </footer>
+    
+  </body>
+</html>
